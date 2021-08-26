@@ -11,7 +11,7 @@ https://blog.csdn.net/Javastudying_/article/details/111949723
 使配置生效： firewall-cmd --reload 
 
 firewall-cmd --permanent --zone=public --add-port=81/tcp
-
+firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.128.29.160" accept"
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.128.29.194" accept"
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.128.29.161" accept"
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.128.29.195" accept"
