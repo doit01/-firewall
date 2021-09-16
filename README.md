@@ -25,6 +25,10 @@ firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.31.94.29" accept"
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.31.95.21" accept"
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.31.94.221" accept"
+firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="10.31.94.250" accept"
+
+
+ 
 
 firewall-cmd --permanent --zone=public --add-port=80/tcp
 firewall-cmd --permanent --zone=public --add-port=81/tcp
